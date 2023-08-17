@@ -1,0 +1,4 @@
+rootProject.name = 'GenCore'
+include ":database"
+include 'utils'
+

@@ -1,0 +1,9 @@
+name: GenCore
+version: '${version}'
+main: cn.afternode.gencore.GenCore
+api-version: '1.18'
+load: STARTUP
+libraries:
+  - "com.h2database:h2:2.2.220"
+  - "com.mysql:mysql-connector-j:8.1.0"
+  - "org.xerial:sqlite-jdbc:3.42.0.0"
